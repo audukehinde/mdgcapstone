@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+  padding: 1.5rem;
+  height: 100vh;
+}
+
+.hero::before {
+  content: "";
+  background-image: url(img/samuel-pereira-uf2nnANWa8Q-unsplash-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  background-color: rgba(14, 14, 14, 0.25);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  height: 30px;
+  width: 30px;
+}
+
+.sub-hero {
+  margin-top: 2.5rem;
+}
+
+.talent {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: #ec5242;
+}
+
+.title {
+  font-size: 3.5rem;
+  background: linear-gradient(90deg,#ec5242, #2e0b09);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-hero-desc p {
+  font-size: 1.2rem;
+}
