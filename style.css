@@ -195,3 +195,62 @@ i {
   border: 1px solid #d3d3d3;
   background-color: #fff;
 }
+
+header {
+  display: none;
+}
+
+@media only screen and (min-width: 744px) {
+  header {
+    display: block;
+  }
+
+  .first-nav {
+    background-color: #000;
+    padding: 0 12rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .first-nav li a i {
+    font-size: 14px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .main-nav {
+    padding: 0 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .main-nav ul li a {
+    color: #000;
+    font-size: 15px;
+    padding-left: 1.5rem;
+  }
+
+  .decorating-text {
+    border: 3px solid #ec5242;
+    padding: 10px !important;
+  }
+}
