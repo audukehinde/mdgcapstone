@@ -63,7 +63,7 @@ img {
   background: #afafaf;
   border: 2px solid rgb(247, 245, 245);
   padding: 15px 20px;
-  transition-property: none;
+  margin-top: 1rem;
 }
 
 .sub-hero-desc p {
@@ -72,13 +72,14 @@ img {
 }
 
 .event-time {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-top: 1.5rem;
   color: #272a31;
+  font-family: 'ChunkFive Ex', sans-serif; 
 }
 
 .venue {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #494949;
   margin-top: 0.7rem;
 }
@@ -108,7 +109,7 @@ img {
 
 .program-title {
   color: #ec5242;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.2rem;
 }
 
@@ -135,6 +136,10 @@ img {
   transform: translate(-50%);
 }
 
+.speaker {
+  padding: 1.5rem;
+}
+
 .speaker-title {
   text-align: center;
   font-size: 1.5rem;
@@ -144,4 +149,49 @@ img {
 .person {
   width: 8rem;
   height: 8rem;
+}
+
+i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.speakers-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.speaker-details {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.speaker-name {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.des-1 {
+  padding-bottom: 1rem;
+  color: #ec5242;
+  font-weight: 500;
+}
+
+.fa-angle-down {
+  color: #ec5242;
+  padding-left: 0.5rem;
+  font-size: 17PX;
+}
+
+.btn-more {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  padding: 8px 0;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
 }
