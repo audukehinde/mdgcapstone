@@ -8,7 +8,8 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;                                             
+  font-family: 'Lato', sans-serif;  
+  width: 100%;                                           
 }
 
 .hero{
@@ -252,5 +253,69 @@ header {
   .decorating-text {
     border: 3px solid #ec5242;
     padding: 10px !important;
+  }
+
+  .menu, .btn-join {
+    display: none;
+  }
+
+  .hero{
+    padding: 2rem 12rem;
+    height: 80vh;
+    background-color: #d3d3d3;
+  }
+
+  .sub-hero {
+    width: 58%;
+  }
+
+  .program-desktop {
+    display: flex;
+    padding: 0 10rem;
+    justify-content: space-between;
+  }
+
+  .progam {
+    width: 25%;
+    margin: 2rem 0.2rem;
+    background-color: rgba(54, 54, 54, 0.4);
+    padding: 20px;
+  }
+
+  .pro-desc {
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+
+  .program-title {
+    color: #ec5242;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+  i {
+    margin: 0 auto;
+    font-size: 24px;
+    padding-bottom: 1rem;
+  }
+
+  .program-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  .whole {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    margin: 2rem 0;
   }
 }
