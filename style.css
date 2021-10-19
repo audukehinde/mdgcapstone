@@ -9,12 +9,11 @@
 
 body {
   font-family: 'Lato', sans-serif;  
-  width: 100%;                                           
+  width: 100%;
 }
 
 .hero{
   padding: 1.5rem;
-  /* height: 100vh; */
   background-color: #d3d3d3;
 }
 
@@ -197,18 +196,22 @@ i {
   background-color: #fff;
 }
 
-header {
+header, .d-none, .whole, .partner {
+  display: none;
+}
+
+footer {
   display: none;
 }
 
 @media only screen and (min-width: 744px) {
   header {
     display: block;
+    background-color: #fff;
   }
 
   .first-nav {
     background-color: #000;
-    padding: 0 12rem;
   }
 
   ul {
@@ -255,7 +258,8 @@ header {
     padding: 10px !important;
   }
 
-  .menu, .btn-join {
+  .menu, 
+  .btn-join {
     display: none;
   }
 
@@ -298,7 +302,11 @@ header {
     padding-bottom: 1rem;
   }
 
-  i {
+  .fa-chalkboard-teacher, 
+  .fa-acquisitions-incorporated,
+  .fa-user-tie,
+  .fa-praying-hands,
+  .fa-certificate {
     margin: 0 auto;
     font-size: 24px;
     padding-bottom: 1rem;
@@ -317,5 +325,75 @@ header {
     text-align: center;
     font-size: 13px;
     margin: 2rem 0;
+  }
+
+  .btn-more {
+    display: none;
+  }
+
+  .speaker, 
+  .partner, 
+  .first-nav,
+  footer  {
+    padding: 0 12rem;
+  }
+
+  .speaker-desktop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .speakers-description {
+    width: 50%;
+  }
+
+  .person {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .d-none {
+    display: flex;
+  }
+
+  .partner {
+    display: block;
+    background-color: #272a31;
+    margin-top: 3rem;
+  }
+
+  .partner-header {
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .logo1 {
+    width: 10%;
+    height: 10%;
+  }
+
+  .partner-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 12rem;
+  }
+
+  footer p, h3 {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .logo {
+    margin-right: 3rem;
   }
 }
