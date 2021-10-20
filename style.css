@@ -17,20 +17,6 @@ body {
   background-color: #d3d3d3;
 }
 
-/* .hero::before {
-  content: "";
-  background-image: url(img/pexels-icsa-1708936-min.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.1;
-} */
-
 img {
   height: 100%;
   width: 100%;
@@ -51,12 +37,27 @@ img {
   color: #ec5242;
 }
 
+.about-talent {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: #ec5242;
+  text-align: center;
+}
+
 .title {
   font-size: 2.5rem;
   background: linear-gradient(90deg,#ec5242, #2e0b09);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'ChunkFive Ex', sans-serif;                                             
+}
+
+.about-title {
+  font-size: 3rem;
+  color: #ec5242;
+  line-height: 4rem;
+  font-family: 'ChunkFive Ex', sans-serif;
+  margin-bottom: 2rem;                                             
 }
 
 .about-title {
@@ -99,6 +100,11 @@ img {
   width: 80%;
 }
 
+.about-info p,
+.creative-header p {
+  text-align: center !important;
+}
+
 .email {
   display: block;
   text-align: center;
@@ -107,13 +113,14 @@ img {
 }
 
 .partner2 {
-  background-color: #272a31;
+  background-color: #242424;
   padding: 0 2rem;
 }
 
 .footer-desc p, h3 {
   font-size: 15px;
   padding: 5px;
+  text-align: left;
 }
 
 .partner-header {
@@ -235,13 +242,18 @@ i {
   margin-left: 1rem;
 }
 
+.speaker-details h3,
+.speaker-details .des-2,
+.speaker-details .des-1 {
+  padding: 0.2rem 0 !important;
+  text-align: left !important;
+}
+
 .speaker-name {
   font-size: 1.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .des-1 {
-  padding-bottom: 1rem;
   color: #ec5242;
   font-weight: 500;
 }
@@ -275,6 +287,91 @@ header, .d-none, .whole, .partner {
   align-items: center;
 }
 
+.creative-header {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.creative-header h3,
+p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.image-box{
+  display: flex;
+  margin: 2rem 3rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.about-img-box {
+  width: 80%;
+  height: 80%;
+}
+
+.summit {
+  margin: 0 auto;
+}
+
+.bg-image {
+  background-image: url(img/summit2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 4rem 5rem;
+  margin: 2rem 2rem ;
+  position: relative;
+}
+
+.bg-image2 {
+  background-image: url(img/summit3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 4rem 5rem;
+  margin: 2rem 2rem ;
+  position: relative;
+}
+
+.bg-image > * {
+  z-index: 10;
+  position: relative;
+}
+
+.bg-image2 > * {
+  z-index: 10;
+  position: relative;
+}
+
+.bg-image::after, .bg-image2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #ec5242, #4b0800 );
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+.summit h1 {
+  font-size: 2rem;
+}
+
+.summit h1,
+p {
+  text-align: center;
+}
+
+.img-section {
+  border-top: 2px solid #c7c7c7;
+}
+
 footer {
   display: none;
 }
@@ -283,6 +380,80 @@ hr {
   border: 1px solid #ec5242;
   width: 10%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 430px) {
+  .speakers-description {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .speaker-details h3, p {
+    text-align: center !important;
+  }
+
+  .progam {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: rgba(5, 5, 5, 0.4);
+    padding: 20px;
+  }
+
+  .fa-chalkboard-teacher, 
+  .fa-acquisitions-incorporated,
+  .fa-user-tie,
+  .fa-praying-hands,
+  .fa-certificate {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    padding-bottom: 0.2rem;
+  }
+
+  .program-title {
+    color: #ec5242;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    /* padding-bottom: 0.5rem; */
+  }
+
+  .pro-desc {
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center !important;
+  }
+
+  .title {
+    font-size: 1.9rem;
+    background: linear-gradient(90deg,#ec5242, #2e0b09);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'ChunkFive Ex', sans-serif;  
+    text-align: center;                                           
+  }
+
+  .talent {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 956px) {
@@ -303,6 +474,13 @@ hr {
     background-color: #000;
   }
 
+  /* .about-talent {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    color: #ec5242;
+    text-align: center;
+  } */
+
   .title {
     width: 70%;
     font-size: 3rem;
@@ -310,6 +488,26 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'ChunkFive Ex', sans-serif;                                             
+  }
+
+  /* .about-title {
+    font-size: 3rem;
+    background: linear-gradient(90deg,#ec5242, #2e0b09);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'ChunkFive Ex', sans-serif;
+  } */
+
+  .sub-hero-desc-about {
+    width: 70%;
+    background: #fff;
+    padding: 15px 20px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    /* left: -50%;
+    transform: translate(-50%); */
   }
 
   .sub-hero-desc {
@@ -345,6 +543,37 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .about-img-box {
+    width: 30%;
+    height: 30%;
+  }
+
+  .bg-image,
+  .bg-image2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    width: 40%;
+    height: 50%;
+  }
+
+  .bg-image {
+    background-image: url(img/summit2.jpg);
+  }
+
+  .bg-image2 {
+    background-image: url(img/summit3.jpg);
+  }
+
+  .summit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
   }
 
   .logo {
@@ -404,7 +633,7 @@ hr {
     text-align: center;
     width: 100%;
     font-size: 1.2rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
   }
 
   .fa-chalkboard-teacher, 
@@ -512,5 +741,19 @@ hr {
     border: 1px solid #ec5242;
     width: 4%;
     margin: 0 auto;
+  }
+
+  .about-footer {
+    background-color: #242424;
+    color: #fff;
+  }
+
+  .partner2 {
+    display: none;
+  }
+
+  .main-nav ul .about {
+    color: #ec5242;
+    /* background-color: #000; */
   }
 }
