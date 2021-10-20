@@ -120,7 +120,7 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
-  background-color: rgba(59, 59, 59, 0.4);
+  background-color: rgba(5, 5, 5, 0.4);
   padding: 20px;
 }
 
@@ -216,14 +216,39 @@ hr {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 744px) {
+@media only screen and (min-width: 956px) {
   header {
     display: block;
     background-color: #fff;
   }
 
+  .speaker, 
+  .partner, 
+  .first-nav,
+  .program-section,
+  .main-nav {
+    padding: 0 12rem;
+  }
+
   .first-nav {
     background-color: #000;
+  }
+
+  .title {
+    width: 70%;
+    font-size: 3rem;
+    background: linear-gradient(90deg,#ec5242, #2e0b09);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'ChunkFive Ex', sans-serif;                                             
+  }
+
+  .sub-hero-desc {
+    width: 70%;
+    background: #afafaf;
+    border: 2px solid rgb(247, 245, 245);
+    padding: 15px 20px;
+    margin-top: 1rem;
   }
 
   ul {
@@ -248,7 +273,6 @@ hr {
   }
 
   .main-nav {
-    padding: 0 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -276,26 +300,26 @@ hr {
   }
 
   .hero{
-    padding: 2rem 6rem;
-    height: 80vh;
+    padding: 2rem 12rem;
+    width: 100%;
+    height: 100vh;
     background-color: #d3d3d3;
   }
 
   .sub-hero {
-    width: 58%;
+    width: 100%;
   }
 
   .program-desktop {
     display: flex;
-    padding: 0 6rem;
     justify-content: space-between;
   }
 
   .progam {
     width: 25%;
-    margin: 2rem 0.2rem;
-    background-color: rgba(54, 54, 54, 0.4);
-    padding: 20px;
+    margin: 2rem 0.1rem;
+    background-color: rgba(5, 5, 5, 0.4);
+    padding: 1rem 0.5rem;
   }
 
   .pro-desc {
@@ -319,16 +343,18 @@ hr {
   .fa-user-tie,
   .fa-praying-hands,
   .fa-certificate {
-    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     font-size: 24px;
-    padding-bottom: 1rem;
+    padding-bottom: 0.2rem;
   }
 
   .program-heading {
     color: #fff;
     text-align: center;
     font-size: 1.2rem;
-    /* margin: 1rem 0; */
+    padding: 2rem 0;
   }
 
   .whole {
@@ -336,18 +362,11 @@ hr {
     color: #fff;
     text-align: center;
     font-size: 13px;
-    margin: 2rem 0;
+    padding-bottom: 3rem;
   }
 
   .btn-more {
     display: none;
-  }
-
-  .speaker, 
-  .partner, 
-  .first-nav,
-  footer  {
-    padding: 0 6rem;
   }
 
   .speaker-desktop {
@@ -359,6 +378,15 @@ hr {
 
   .speakers-description {
     width: 50%;
+  }
+
+  .speakers-description img {
+    width: 27%;
+  }
+
+  .speaker-details {
+    width: 70%;
+    margin-left: 5px !important;
   }
 
   .person {
@@ -399,7 +427,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 6rem;
+    padding: 3rem 12rem;
   }
 
   footer p, h3 {
