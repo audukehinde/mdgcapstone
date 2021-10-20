@@ -85,7 +85,7 @@ img {
 }
 
 .program-section {
-  background-image: url(img/pattern.svg);
+  background-image: url('https://raw.githubusercontent.com/Lockless404/dotaCapstone/mobileView/images/repeat-bg.png');
   padding: 1.5rem;
 }
 
@@ -93,6 +93,7 @@ img {
   color: #fff;
   text-align: center;
   font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .program-icon {
@@ -143,7 +144,12 @@ img {
 .speaker-title {
   text-align: center;
   font-size: 1.5rem;
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.mag-btm {
+  margin-bottom: 2rem;
 }
 
 .person {
@@ -204,6 +210,12 @@ footer {
   display: none;
 }
 
+hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 744px) {
   header {
     display: block;
@@ -236,7 +248,7 @@ footer {
   }
 
   .main-nav {
-    padding: 0 12rem;
+    padding: 0 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -264,7 +276,7 @@ footer {
   }
 
   .hero{
-    padding: 2rem 12rem;
+    padding: 2rem 6rem;
     height: 80vh;
     background-color: #d3d3d3;
   }
@@ -275,7 +287,7 @@ footer {
 
   .program-desktop {
     display: flex;
-    padding: 0 10rem;
+    padding: 0 6rem;
     justify-content: space-between;
   }
 
@@ -316,7 +328,7 @@ footer {
     color: #fff;
     text-align: center;
     font-size: 1.2rem;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
   }
 
   .whole {
@@ -335,13 +347,14 @@ footer {
   .partner, 
   .first-nav,
   footer  {
-    padding: 0 12rem;
+    padding: 0 6rem;
   }
 
   .speaker-desktop {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 3rem;
   }
 
   .speakers-description {
@@ -365,8 +378,9 @@ footer {
 
   .partner-header {
     color: #fff;
-    padding: 2rem 0;
+    padding-top: 2rem;
     text-align: center;
+    font-size: 1.5rem;
   }
 
   .logo1 {
@@ -378,14 +392,14 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 2rem;
+    padding: 3rem 0;
   }
 
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 12rem;
+    padding: 3rem 6rem;
   }
 
   footer p, h3 {
@@ -395,5 +409,11 @@ footer {
 
   .logo {
     margin-right: 3rem;
+  }
+
+  hr {
+    border: 1px solid #ec5242;
+    width: 4%;
+    margin: 0 auto;
   }
 }
