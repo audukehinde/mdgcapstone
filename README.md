@@ -1,12 +1,11 @@
 # My Portfolio
 ---
-In this capstone project,  
+In this capstone project, I built a conference website with html, css and javascript
 
-![project image](\Documents\microverse\mdgcapstone\img)
-![project image](https://github.com/audukehinde/portfolio/blob/menubranch/img/portfolio%20mobile2.PNG)
-![project Image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent%20work.PNG)
-![project image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent-work3.PNG)
-![project image](https://github.com/audukehinde/portfolio/blob/footer-section/img/recent-work4.PNG)
+![project image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture1.PNG)
+![project image](img\Capture2.PNG)
+![project Image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture3.PNG)
+![project image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture4.PNG)
 
 ### Built With
 ---
@@ -16,7 +15,7 @@ In this capstone project,
 
 ### Live Demo
 ---
-[Live Demo](https://audukehinde.github.io/portfolio/)
+[Live Demo]()
 
 
 ### Getting Started

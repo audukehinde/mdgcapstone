@@ -79,7 +79,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 img {
@@ -157,6 +156,7 @@ img {
 }
 
 .about-info {
+  color: #fff;
   margin: 2rem  auto;
   text-align: center;
   line-height: 1.6rem;
@@ -171,8 +171,9 @@ img {
 .email {
   display: block;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-weight: bolder;
+  letter-spacing: 0.2rem;
 }
 
 .partner2 {
@@ -545,6 +546,7 @@ hr {
     opacity: unset;
     transform: unset;
     transition: unset;
+    z-index: 10;
   }
   
   .nav-menu li {
