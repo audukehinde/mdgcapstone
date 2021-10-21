@@ -12,6 +12,66 @@ body {
   width: 100%;
 }
 
+.close {
+  display: none;
+  z-index: 9999;
+  cursor: pointer !important;
+  font-size: 40px;
+}
+
+.close-appear {
+  display: block;
+}
+
+.hamburger {
+  cursor: pointer;
+  color: #fff;
+}
+
+.hamburger-disappear,
+.first-nav,
+.logo {
+  display: none;
+}
+
+.main-nav {
+  padding: 2rem;
+  background-color: #d3d3d3;
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  right: 0;
+  list-style: none;
+  flex-direction: column;
+  background: #ec5242;
+  width: 50%;
+  border-radius: 10px;
+  height: 100vh;
+  opacity: 0.97;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+
+.nav-menu-active {
+  transform: translateX(0);
+}
+
+.nav-menu li{
+  padding: 5px;
+  font-size: 25px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+}
+
 .hero{
   padding: 1.5rem;
   background-color: #d3d3d3;
@@ -155,7 +215,7 @@ img {
 }
 
 .program-section {
-  background-image: url('https://raw.githubusercontent.com/Lockless404/dotaCapstone/mobileView/images/repeat-bg.png');
+  background-image: url('img/repeat-bg.png');
   padding: 1.5rem;
 }
 
@@ -276,8 +336,12 @@ i {
   background-color: #fff;
 }
 
-header, .d-none, .whole, .partner {
+.d-none, .whole, .partner {
   display: none;
+}
+
+.close {
+  font-size: 3rem;
 }
 
 .about-footer {
@@ -420,7 +484,6 @@ hr {
     text-align: center;
     width: 100%;
     font-size: 1.2rem;
-    /* padding-bottom: 0.5rem; */
   }
 
   .pro-desc {
@@ -457,6 +520,40 @@ hr {
 }
 
 @media only screen and (min-width: 956px) {
+  .home-display {
+    display: none;
+  }
+
+  .nav-menu {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: unset;
+    padding-left: unset;
+    list-style: none;
+    flex-direction: unset;
+    background: unset;
+    width: 100%;
+    border-radius: unset;
+    transition: unset;
+    font-size: unset;
+    line-height: unset;
+    height: unset;
+    padding-top: unset;
+    opacity: unset;
+    transform: unset;
+    transition: unset;
+  }
+  
+  .nav-menu li {
+    font-size: initial;
+    line-height: initial;
+    display: inline;
+    padding: 3px;
+    /* margin: 0 16px; */
+  }
+
   header {
     display: block;
     background-color: #fff;
@@ -471,15 +568,9 @@ hr {
   }
 
   .first-nav {
+    display: block;
     background-color: #000;
   }
-
-  /* .about-talent {
-    font-size: 1.7rem;
-    margin-bottom: 0.5rem;
-    color: #ec5242;
-    text-align: center;
-  } */
 
   .title {
     width: 70%;
@@ -490,14 +581,6 @@ hr {
     font-family: 'ChunkFive Ex', sans-serif;                                             
   }
 
-  /* .about-title {
-    font-size: 3rem;
-    background: linear-gradient(90deg,#ec5242, #2e0b09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'ChunkFive Ex', sans-serif;
-  } */
-
   .sub-hero-desc-about {
     width: 70%;
     background: #fff;
@@ -506,8 +589,6 @@ hr {
     line-height: 1.7rem;
     text-align: center;
     border: 1px solid #d3d3d3;
-    /* left: -50%;
-    transform: translate(-50%); */
   }
 
   .sub-hero-desc {
@@ -540,6 +621,7 @@ hr {
   }
 
   .main-nav {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -577,6 +659,7 @@ hr {
   }
 
   .logo {
+    display: block;
     width: 15%;
     height: 15%;
   }
@@ -584,7 +667,7 @@ hr {
   .main-nav ul li a {
     color: #000;
     font-size: 15px;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
   }
 
   .decorating-text {
@@ -593,7 +676,8 @@ hr {
   }
 
   .menu, 
-  .btn-join {
+  .btn-join,
+  .close {
     display: none;
   }
 
@@ -633,7 +717,6 @@ hr {
     text-align: center;
     width: 100%;
     font-size: 1.2rem;
-    /* padding-bottom: 1rem; */
   }
 
   .fa-chalkboard-teacher, 
@@ -754,6 +837,5 @@ hr {
 
   .main-nav ul .about {
     color: #ec5242;
-    /* background-color: #000; */
   }
 }
