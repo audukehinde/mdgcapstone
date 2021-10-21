@@ -3,6 +3,46 @@ const navMenu = document.querySelector('.nav-menu');
 const close = document.querySelector('.close');
 const open = document.querySelector('.menu');
 const navLink = document.querySelectorAll('.nav-link');
+const speakers = document.querySelector('.speaker-desktop');
+
+const speakerInfo = [
+  {
+    name: 'Alex Kenny',
+    info: 'Full-stack Developer',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person1.png',
+  },
+  {
+    name: 'Philip Aje',
+    info: 'UI/UX Expert',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person2.png',
+  },
+  {
+    name: 'Adenike Mi',
+    info: 'Data Science Expert',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person3.png',
+  },
+  {
+    name: 'Taiwo Audu',
+    info: 'Dota Player, Streamer and Content Creator',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person4.png',
+  },
+  {
+    name: 'Ademola Izzy',
+    info: 'IT Support Expert',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person5.png',
+  },
+  {
+    name: 'Taofeek Tkay',
+    info: 'Androld Developer',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    imageSrc: 'img/person6.png',
+  },
+];
 
 hamburger.addEventListener('click', () => {
   navMenu.classList.add('nav-menu-active');
@@ -25,59 +65,18 @@ for (let i = 0; i < navLink.length; i += 1) {
 }
 
 
-const projectSection = document.getElementById('program-section');
-const projectSectionTitle = document.createElement('h3');
-// const underLineImage = document.createElement('img');
-// const projectCard = document.createElement('div');
-// underLineImage.src = 'img/Vector4.png';
-// underLineImage.setAttribute('alt', 'Project Image');
-projectSectionTitle.innerText = 'Main Program';
-projectSection.appendChild(projectSectionTitle);
-// const projectData = [
-//   4,
-//   {
-//     projectTitle: '',
-//     projectDescription: "A website created for a digital marketing agency to help improve sales and give information about company's product. This website also helps the client to contact the company for a business deal and showcases the company's different services and packages.",
-//   },
-//   {
-//     firstLang: 'CSS',
-//     secondLang: 'HTML',
-//     thirdLang: 'JavaScript',
-//     fourthLang: 'Ruby',
-//   },
-//   {
-//     imag1: 'img/fola2.PNG',
-//     image2: 'img/fola3.PNG',
-//     image3: 'img/spike.PNG',
-//     image4: 'img/fola2.PNG',
-//   },
-// ];
+function render(n) {
+  speakers.innerHTML += `
+    <div class="speakers-description">
+      <img src="${speakerInfo[n].imageSrc}" alt="First Speaker" class="person">
+      <div class="speaker-details">
+        <h3 class="speaker-name">${speakerInfo[n].name}</h3>
+        <p class="des-1">${speakerInfo[n].info}</p>
+        <p class="des-2">${speakerInfo[n].paragraph}</p>
+      </div>
+    </div>`;
+}
 
-// for (let i = 1; i <= projectData[0]; i += 1) {
-//   const projects = `
-//   <div class="proof proof-space">
-//     <img id="project-image${i}" class="project-img" src="" alt="Project33" />
-//     <div class="inner-element">
-//       <h3>MARKETING AGENCY</h3>
-//       <p>${projectData[1].projectDescription}</p>
-//       <div class="tools">
-//         <ul>
-//           <li class="line">${projectData[2].firstLang}</li>
-//           <li class="line">${projectData[2].secondLang}</li>
-//           <li class="line">${projectData[2].thirdLang}</li>
-//           <li>${projectData[2].fourthLang}</li>
-//         </ul>
-//       </div>
-//       <button class="project-link btnsee btncheck">See Project</button>
-//     </div>
-//   </div>`;
-//   projectSection.innerHTML += projects;
-// }
-// document.getElementById('project-image1').src = projectData[3].imag1;
-// document.getElementById('project-image2').src = projectData[3].image2;
-// document.getElementById('project-image3').src = projectData[3].image3;
-// document.getElementById('project-image4').src = projectData[3].image4;
-
-// projectSectionTitle.className = 'recent';
-// underLineImage.className = 'line-divider2';
-// projectCard.className = 'inner-element';
+for (let i = 0; i < speakerInfo.length; i += 1) {
+  render(i);
+}
