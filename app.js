@@ -9,37 +9,37 @@ const speakerInfo = [
   {
     name: 'Alex Kenny',
     info: 'Full-stack Developer',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person1.png',
   },
   {
     name: 'Philip Aje',
     info: 'UI/UX Expert',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person2.png',
   },
   {
     name: 'Adenike Mi',
     info: 'Data Science Expert',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person3.png',
   },
   {
     name: 'Taiwo Audu',
     info: 'Dota Player, Streamer and Content Creator',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person4.png',
   },
   {
     name: 'Ademola Izzy',
     info: 'IT Support Expert',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person5.png',
   },
   {
     name: 'Taofeek Tkay',
     info: 'Androld Developer',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti, aliquam quis cumque iure possimus error',
+    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     imageSrc: 'img/person6.png',
   },
 ];
