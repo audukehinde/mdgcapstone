@@ -75,6 +75,11 @@ body {
 .hero{
   padding: 1.5rem;
   background-color: #d3d3d3;
+  background-image: url(img/cover1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 img {
@@ -106,9 +111,7 @@ img {
 
 .title {
   font-size: 2.5rem;
-  background: linear-gradient(90deg,#ec5242, #2e0b09);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#ec5242;
   font-family: 'ChunkFive Ex', sans-serif;                                             
 }
 
@@ -149,7 +152,7 @@ img {
 .event-time {
   font-size: 2rem;
   margin-top: 1.5rem;
-  color: #272a31;
+  color: #d3d3d3;
   font-family: 'ChunkFive Ex', sans-serif; 
 }
 
@@ -210,7 +213,7 @@ img {
 
 .venue {
   font-size: 1.4rem;
-  color: #494949;
+  color: #d3d3d3;
   margin-top: 0.7rem;
 }
 
@@ -496,9 +499,7 @@ hr {
 
   .title {
     font-size: 1.9rem;
-    background: linear-gradient(90deg,#ec5242, #2e0b09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:#ec5242;
     font-family: 'ChunkFive Ex', sans-serif;  
     text-align: center;                                           
   }
@@ -579,9 +580,7 @@ hr {
   .title {
     width: 70%;
     font-size: 3rem;
-    background: linear-gradient(90deg,#ec5242, #2e0b09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:#ec5242;
     font-family: 'ChunkFive Ex', sans-serif;                                             
   }
 
