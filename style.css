@@ -553,6 +553,11 @@ hr {
     padding: 3px;
   }
 
+  .nav-menu li a:hover {
+    color: #ec5242;
+    font-weight: bolder;
+  }
+
   header {
     display: block;
     background-color: #fff;
