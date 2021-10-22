@@ -75,5 +75,5 @@ function render(n) {
 }
 
 for (let i = 0; i < speakerInfo.length; i += 1) {
-  render(i);
+  window.onload = render(i);
 }
