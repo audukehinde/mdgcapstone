@@ -97,17 +97,17 @@ p {
   text-align: center;
 }
 
+.creative-header h3,
+p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
 .footer-desc p,
 h3 {
   font-size: 15px;
   padding: 5px;
   text-align: left;
-}
-
-.creative-header h3,
-p {
-  text-align: center;
-  padding-top: 1rem;
 }
 
 .sub-hero {
