@@ -553,6 +553,18 @@ hr {
     padding: 3px;
   }
 
+  ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .main-nav ul li a {
+    color: #000;
+    font-size: 15px;
+    padding-left: 1rem;
+  }
+
   .nav-menu li a:hover {
     color: #ec5242;
     font-weight: bolder;
@@ -607,12 +619,6 @@ hr {
     align-items: center;
   }
 
-  ul li {
-    list-style: none;
-    padding: 5px;
-    font-size: 14px;
-  }
-
   .first-nav li a i {
     font-size: 14px;
   }
@@ -664,12 +670,7 @@ hr {
     display: block;
     width: 15%;
     height: 15%;
-  }
-
-  .main-nav ul li a {
-    color: #000;
-    font-size: 15px;
-    padding-left: 1rem;
+    margin-right: 3rem;
   }
 
   .decorating-text {
@@ -683,7 +684,7 @@ hr {
     display: none;
   }
 
-  .hero{
+  .hero {
     padding: 2rem 12rem;
     width: 100%;
     height: 100vh;
@@ -721,7 +722,7 @@ hr {
     font-size: 1.2rem;
   }
 
-  .fa-chalkboard-teacher, 
+  .fa-chalkboard-teacher,
   .fa-acquisitions-incorporated,
   .fa-user-tie,
   .fa-praying-hands,
@@ -813,13 +814,10 @@ hr {
     padding: 3rem 12rem;
   }
 
-  footer p, h3 {
+  footer p, 
+  h3 {
     font-size: 15px;
     padding: 5px;
-  }
-
-  .logo {
-    margin-right: 3rem;
   }
 
   hr {

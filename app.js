@@ -63,7 +63,6 @@ for (let i = 0; i < navLink.length; i += 1) {
   });
 }
 
-
 function render(n) {
   speakers.innerHTML += `<div class="speakers-description">
     <img src="${speakerInfo[n].imageSrc}" alt="First Speaker" class="person">
