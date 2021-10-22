@@ -1,0 +1,889 @@
+@import url('http://fonts.cdnfonts.com/css/chunkfive-ex');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+.close {
+  display: none;
+  z-index: 9999;
+  cursor: pointer !important;
+  font-size: 40px;
+  font-size: 3rem;
+}
+
+.close-appear {
+  display: block;
+}
+
+.hamburger {
+  cursor: pointer;
+  color: #fff;
+}
+
+.hamburger-disappear,
+.first-nav,
+.logo {
+  display: none;
+}
+
+.main-nav {
+  padding: 2rem;
+  background-color: #d3d3d3;
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 0;
+  right: 0;
+  list-style: none;
+  flex-direction: column;
+  background: #ec5242;
+  width: 50%;
+  border-radius: 10px;
+  height: 100vh;
+  opacity: 0.97;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+
+.nav-menu-active {
+  transform: translateX(0);
+}
+
+.nav-menu li {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+}
+
+.hero {
+  padding: 1.5rem;
+  background-color: #d3d3d3;
+  background-image: url(img/cover1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  height: 30px;
+  width: 30px;
+}
+
+.summit h2,
+p {
+  text-align: center;
+}
+
+.footer-desc h3 {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.creative-header h3,
+p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.footer-desc p {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sub-hero {
+  margin-top: 2.5rem;
+}
+
+.talent {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: #ec5242;
+}
+
+.about-talent {
+  font-size: 1.7rem;
+  margin-bottom: 0.5rem;
+  color: #ec5242;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ec5242;
+  font-family: 'ChunkFive Ex', sans-serif;
+}
+
+.about-title {
+  font-size: 3rem;
+  color: #ec5242;
+  line-height: 4rem;
+  font-family: 'ChunkFive Ex', sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sub-hero-desc {
+  background: #afafaf;
+  border: 2px solid rgb(247, 245, 245);
+  padding: 15px 20px;
+  margin-top: 1rem;
+  line-height: 1.7rem;
+}
+
+.sub-hero-desc-about {
+  background: #fff;
+  padding: 15px 20px;
+  margin-top: 1rem;
+  line-height: 1.7rem;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+.sub-hero-desc p {
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.event-time {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  color: #d3d3d3;
+  font-family: 'ChunkFive Ex', sans-serif;
+}
+
+.about-info {
+  color: #fff;
+  margin: 2rem  auto;
+  text-align: center;
+  line-height: 1.6rem;
+  width: 80%;
+}
+
+.about-info p,
+.creative-header p {
+  text-align: center !important;
+}
+
+.email {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
+}
+
+.partner2 {
+  background-color: #242424;
+  padding: 0 2rem;
+}
+
+.partner-header {
+  color: #fff;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.partner-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo {
+  width: 30%;
+  height: 30%;
+}
+
+.logo1 {
+  width: 33%;
+  height: 30%;
+}
+
+.venue {
+  font-size: 1.4rem;
+  color: #d3d3d3;
+  margin-top: 0.7rem;
+}
+
+.program-section {
+  background-image: url('img/repeat-bg.png');
+  padding: 1.5rem;
+}
+
+.program-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.program-icon {
+  width: 10%;
+  height: 10%;
+}
+
+.pro-desc {
+  color: #fff;
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.9rem;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
+.progam {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: rgba(5, 5, 5, 0.4);
+  padding: 20px;
+}
+
+.btn-join {
+  margin-top: 2rem;
+  background-color: #ec5242;
+  color: #fff;
+  font-size: 1rem;
+  padding: 20px;
+  border: none;
+  font-weight: 900;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.speaker {
+  padding: 1.5rem;
+}
+
+.speaker-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.mag-btm {
+  margin-bottom: 2rem;
+}
+
+.person {
+  width: 8rem;
+  height: 8rem;
+}
+
+i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.speakers-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.speaker-details {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.des-1 {
+  color: #ec5242;
+  font-weight: 500;
+}
+
+.speaker-details h3,
+.speaker-details .des-2,
+.speaker-details .des-1 {
+  padding: 0.2rem 0 !important;
+  text-align: left !important;
+}
+
+.speaker-name {
+  font-size: 1.5rem;
+}
+
+.fa-angle-down {
+  color: #ec5242;
+  padding-left: 0.5rem;
+  font-size: 17px;
+}
+
+.btn-more {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  padding: 8px 0;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+}
+
+.d-none,
+.whole,
+.partner {
+  display: none;
+}
+
+.about-footer {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creative-header {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.image-box {
+  display: flex;
+  margin: 2rem 3rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.about-img-box {
+  width: 80%;
+  height: 80%;
+}
+
+.summit {
+  margin: 0 auto;
+}
+
+.bg-image {
+  background-image: url(img/summit2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 4rem 5rem;
+  margin: 2rem 2rem;
+  position: relative;
+}
+
+.bg-image2 {
+  background-image: url(img/summit3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 4rem 5rem;
+  margin: 2rem 2rem;
+  position: relative;
+}
+
+.bg-image > * {
+  z-index: 10;
+  position: relative;
+}
+
+.bg-image2 > * {
+  z-index: 10;
+  position: relative;
+}
+
+.bg-image::after,
+.bg-image2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #ec5242, #4b0800);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 0.85;
+}
+
+.summit h1 {
+  font-size: 2rem;
+}
+
+.img-section {
+  border-top: 2px solid #c7c7c7;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+
+.footer2 {
+  color: #000;
+  background: #fff;
+}
+
+footer .footer-logo {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+hr {
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 430px) {
+  .speakers-description {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .speaker-details h3,
+  p {
+    text-align: center !important;
+  }
+
+  .progam {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: rgba(5, 5, 5, 0.4);
+    padding: 20px;
+  }
+
+  .fa-chalkboard-teacher,
+  .fa-acquisitions-incorporated,
+  .fa-user-tie,
+  .fa-praying-hands,
+  .fa-certificate {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    padding-bottom: 0.2rem;
+  }
+
+  .program-title {
+    color: #ec5242;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .pro-desc {
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center !important;
+  }
+
+  .title {
+    font-size: 1.9rem;
+    color: #ec5242;
+    font-family: 'ChunkFive Ex', sans-serif;
+    text-align: center;
+  }
+
+  .talent {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #ec5242;
+    text-align: center;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 956px) {
+  .home-display {
+    display: none;
+  }
+
+  .nav-menu {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: unset;
+    padding-left: unset;
+    list-style: none;
+    flex-direction: unset;
+    background: unset;
+    width: 100%;
+    border-radius: unset;
+    transition: unset;
+    font-size: unset;
+    line-height: unset;
+    height: unset;
+    padding-top: unset;
+    opacity: unset;
+    transform: unset;
+    z-index: 10;
+  }
+
+  ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .nav-menu li {
+    font-size: initial;
+    line-height: initial;
+    display: inline;
+    padding: 3px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .main-nav ul li a {
+    color: #000;
+    font-size: 15px;
+    padding-left: 1rem;
+  }
+
+  .nav-menu li a:hover {
+    color: #ec5242;
+    font-weight: bolder;
+  }
+
+  header {
+    display: block;
+    background-color: #fff;
+  }
+
+  .speaker,
+  .partner,
+  .first-nav,
+  .program-section,
+  .main-nav {
+    padding: 0 12rem;
+  }
+
+  .first-nav {
+    display: block;
+    background-color: #000;
+  }
+
+  .title {
+    width: 70%;
+    font-size: 3rem;
+    color: #ec5242;
+    font-family: 'ChunkFive Ex', sans-serif;
+  }
+
+  .sub-hero-desc-about {
+    width: 70%;
+    background: #fff;
+    padding: 15px 20px;
+    margin: 0 auto;
+    line-height: 1.7rem;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+  }
+
+  .sub-hero-desc {
+    width: 70%;
+    background: #afafaf;
+    border: 2px solid rgb(247, 245, 245);
+    padding: 15px 20px;
+    margin-top: 1rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .first-nav li a i {
+    font-size: 14px;
+  }
+
+  .main-nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-img-box {
+    width: 30%;
+    height: 30%;
+  }
+
+  .bg-image,
+  .bg-image2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    width: 40%;
+    height: 50%;
+  }
+
+  .bg-image {
+    background-image: url(img/summit2.jpg);
+  }
+
+  .bg-image2 {
+    background-image: url(img/summit3.jpg);
+  }
+
+  .summit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+  }
+
+  .logo {
+    display: block;
+    width: 15%;
+    height: 15%;
+    margin-right: 3rem;
+  }
+
+  .decorating-text {
+    border: 3px solid #ec5242;
+    padding: 10px !important;
+  }
+
+  .menu,
+  .btn-join,
+  .close {
+    display: none;
+  }
+
+  .hero {
+    padding: 2rem 12rem;
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d3;
+  }
+
+  .sub-hero {
+    width: 100%;
+  }
+
+  .program-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .progam {
+    width: 25%;
+    margin: 2rem 0.1rem;
+    background-color: rgba(5, 5, 5, 0.4);
+    padding: 1rem 0.5rem;
+  }
+
+  .pro-desc {
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+
+  .program-title {
+    color: #ec5242;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .fa-chalkboard-teacher,
+  .fa-acquisitions-incorporated,
+  .fa-user-tie,
+  .fa-praying-hands,
+  .fa-certificate {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    padding-bottom: 0.2rem;
+  }
+
+  .program-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+
+  .whole {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 3rem;
+  }
+
+  .btn-more {
+    display: none;
+  }
+
+  .speaker-desktop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  .speakers-description {
+    width: 50%;
+  }
+
+  .speakers-description img {
+    width: 27%;
+  }
+
+  .speaker-details {
+    width: 70%;
+    margin-left: 5px !important;
+  }
+
+  .person {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .d-none {
+    display: flex;
+  }
+
+  .partner {
+    display: block;
+    background-color: #272a31;
+    margin-top: 3rem;
+  }
+
+  .partner-header {
+    color: #fff;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .logo1 {
+    width: 10%;
+    height: 10%;
+  }
+
+  .partner-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  footer {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 12rem;
+  }
+
+  footer .footer-logo {
+    width: 30%;
+    height: 30%;
+    position: unset;
+    left: unset;
+    transform: unset;
+  }
+
+  .footer-desc h3 {
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  .footer2 {
+    color: #fff;
+    background: #000;
+  }
+
+  .footer2 img {
+    width: 20%;
+    height: 20%;
+    margin-right: 2rem;
+  }
+
+  .footer-desc p {
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  hr {
+    border: 1px solid #ec5242;
+    width: 4%;
+    margin: 0 auto;
+  }
+
+  .about-footer {
+    background-color: #242424;
+    color: #fff;
+  }
+
+  .partner2 {
+    display: none;
+  }
+
+  .main-nav ul .about {
+    color: #ec5242;
+  }
+}
