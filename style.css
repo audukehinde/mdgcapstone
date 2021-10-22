@@ -97,14 +97,19 @@ p {
   text-align: center;
 }
 
+.footer-desc h3 {
+  font-size: 15px;
+  padding: 5px;
+  text-align: left;
+}
+
 .creative-header h3,
 p {
   text-align: center;
   padding-top: 1rem;
 }
 
-.footer-desc p,
-h3 {
+.footer-desc p {
   font-size: 15px;
   padding: 5px;
   text-align: left;
