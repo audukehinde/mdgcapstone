@@ -100,7 +100,7 @@ p {
 .footer-desc h3 {
   font-size: 15px;
   padding: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .creative-header h3,
@@ -112,7 +112,7 @@ p {
 .footer-desc p {
   font-size: 15px;
   padding: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .sub-hero {
@@ -444,7 +444,17 @@ i {
 }
 
 footer {
-  display: none;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+footer .footer-logo {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 hr {
@@ -814,16 +824,32 @@ hr {
   }
 
   footer {
+    background-color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3rem 12rem;
   }
 
-  footer p,
-  h3 {
+  footer .footer-logo {
+    width: 30%;
+    height: 30%;
+    position: unset;
+    left: unset;
+    transform: unset;
+  }
+
+  .footer-desc h3 {
     font-size: 15px;
     padding: 5px;
+    text-align: left;
+  }
+
+  .footer-desc p {
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
   }
 
   hr {

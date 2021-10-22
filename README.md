@@ -15,7 +15,7 @@ In this capstone project, I built a conference website with html, css and javasc
 
 ### Live Demo
 ---
-[Live Demo]()
+[Live Demo](https://audukehinde.github.io/mdgcapstone/)
 
 
 ### Getting Started
@@ -54,6 +54,8 @@ Contributions, issues, and feature requests are welcome!
 
 
 ### Acknowledgments
+---
+👤 *Cindy Shin*
 ---
 Thanks to Microverse and my Coding Partners
 
