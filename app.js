@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const close = document.querySelector('.close');
-const open = document.querySelector('.menu');
 const navLink = document.querySelectorAll('.nav-link');
 const speakers = document.querySelector('.speaker-desktop');
 
@@ -47,7 +46,7 @@ const speakerInfo = [
 hamburger.addEventListener('click', () => {
   navMenu.classList.add('nav-menu-active');
   close.classList.add('close-appear');
-  hamburger.classList.add('hamburger-disappear')
+  hamburger.classList.add('hamburger-disappear');
 });
 
 close.addEventListener('click', () => {
@@ -67,13 +66,13 @@ for (let i = 0; i < navLink.length; i += 1) {
 
 function render(n) {
   speakers.innerHTML += `<div class="speakers-description">
-      <img src="${speakerInfo[n].imageSrc}" alt="First Speaker" class="person">
-      <div class="speaker-details">
-        <h3 class="speaker-name">${speakerInfo[n].name}</h3>
-        <p class="des-1">${speakerInfo[n].info}</p>
-        <p class="des-2">${speakerInfo[n].paragraph}</p>
-      </div>
-    </div>`;
+    <img src="${speakerInfo[n].imageSrc}" alt="First Speaker" class="person">
+    <div class="speaker-details">
+      <h3 class="speaker-name">${speakerInfo[n].name}</h3>
+      <p class="des-1">${speakerInfo[n].info}</p>
+      <p class="des-2">${speakerInfo[n].paragraph}</p>
+    </div>
+  </div>`;
 }
 
 for (let i = 0; i < speakerInfo.length; i += 1) {

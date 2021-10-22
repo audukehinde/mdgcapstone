@@ -17,6 +17,7 @@ body {
   z-index: 9999;
   cursor: pointer !important;
   font-size: 40px;
+  font-size: 3rem;
 }
 
 .close-appear {
@@ -61,7 +62,7 @@ body {
   transform: translateX(0);
 }
 
-.nav-menu li{
+.nav-menu li {
   padding: 5px;
   font-size: 25px;
 }
@@ -72,7 +73,7 @@ body {
   padding: 0;
 }
 
-.hero{
+.hero {
   padding: 1.5rem;
   background-color: #d3d3d3;
   background-image: url(img/cover1.jfif);
@@ -89,6 +90,12 @@ img {
 .menu {
   height: 30px;
   width: 30px;
+}
+
+.creative-header h3,
+p {
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .sub-hero {
@@ -110,8 +117,8 @@ img {
 
 .title {
   font-size: 2.5rem;
-  color:#ec5242;
-  font-family: 'ChunkFive Ex', sans-serif;                                             
+  color: #ec5242;
+  font-family: 'ChunkFive Ex', sans-serif;
 }
 
 .about-title {
@@ -119,10 +126,7 @@ img {
   color: #ec5242;
   line-height: 4rem;
   font-family: 'ChunkFive Ex', sans-serif;
-  margin-bottom: 2rem;                        
-}
-
-.about-title {
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -181,7 +185,8 @@ img {
   padding: 0 2rem;
 }
 
-.footer-desc p, h3 {
+.footer-desc p,
+h3 {
   font-size: 15px;
   padding: 5px;
   text-align: left;
@@ -306,6 +311,11 @@ i {
   margin-left: 1rem;
 }
 
+.des-1 {
+  color: #ec5242;
+  font-weight: 500;
+}
+
 .speaker-details h3,
 .speaker-details .des-2,
 .speaker-details .des-1 {
@@ -317,15 +327,10 @@ i {
   font-size: 1.5rem;
 }
 
-.des-1 {
-  color: #ec5242;
-  font-weight: 500;
-}
-
 .fa-angle-down {
   color: #ec5242;
   padding-left: 0.5rem;
-  font-size: 17PX;
+  font-size: 17px;
 }
 
 .btn-more {
@@ -340,12 +345,10 @@ i {
   background-color: #fff;
 }
 
-.d-none, .whole, .partner {
+.d-none, 
+.whole, 
+.partner {
   display: none;
-}
-
-.close {
-  font-size: 3rem;
 }
 
 .about-footer {
@@ -360,13 +363,7 @@ i {
   margin: 3rem auto;
 }
 
-.creative-header h3,
-p {
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.image-box{
+.image-box {
   display: flex;
   margin: 2rem 3rem;
   padding: 2rem;
