@@ -449,6 +449,11 @@ footer {
   padding: 20px;
 }
 
+.footer2 {
+  color: #000;
+  background: #fff;
+}
+
 footer .footer-logo {
   width: 30%;
   height: 30%;
@@ -844,6 +849,17 @@ hr {
     font-size: 15px;
     padding: 5px;
     text-align: left;
+  }
+
+  .footer2 {
+    color: #fff;
+    background: #000;
+  }
+
+  .footer2 img {
+    width: 20%;
+    height: 20%;
+    margin-right: 2rem;
   }
 
   .footer-desc p {
