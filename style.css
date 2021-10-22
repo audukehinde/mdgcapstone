@@ -92,6 +92,11 @@ img {
   width: 30px;
 }
 
+.summit h1,
+p {
+  text-align: center;
+}
+
 .footer-desc p,
 h3 {
   font-size: 15px;
@@ -152,11 +157,6 @@ p {
   line-height: 1.7rem;
   text-align: center;
   border: 1px solid #d3d3d3;
-}
-
-.summit h1,
-p {
-  text-align: center;
 }
 
 .sub-hero-desc p {
@@ -416,7 +416,7 @@ i {
   position: relative;
 }
 
-.bg-image::after, 
+.bg-image::after,
 .bg-image2::after {
   content: "";
   display: block;
@@ -456,7 +456,7 @@ hr {
     text-align: center;
   }
 
-  .speaker-details h3, 
+  .speaker-details h3,
   p {
     text-align: center !important;
   }
@@ -547,17 +547,17 @@ hr {
     z-index: 10;
   }
 
+  ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+
   .nav-menu li {
     font-size: initial;
     line-height: initial;
     display: inline;
     padding: 3px;
-  }
-
-  ul li {
-    list-style: none;
-    padding: 5px;
-    font-size: 14px;
   }
 
   li a {
