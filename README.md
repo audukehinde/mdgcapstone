@@ -1,66 +1,131 @@
-# My Portfolio
----
-In this capstone project, I built a conference website with html, css and javascript
+<a name="readme-top"></a>
 
-![project image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture1.PNG)
-![project image](img\Capture2.PNG)
-![project Image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture3.PNG)
-![project image](C:\Users\Audu Omoh\Documents\microverse\mdgcapstone\img\Capture4.PNG)
+# MDG CAPSTONE
 
-### Built With
----
-* Html
-* Css
-* JavaScript
+# 📗 Table of Contents
 
-### Live Demo
----
-[Live Demo](https://audukehinde.github.io/mdgcapstone/)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-### Getting Started
----
-To get a local copy up and running follow these simple steps.
+# 📖 MDG CAPSTONE <a name="about-project"></a>
 
+MDG CAPSTONE is a capstone project for HTML and CSS module of the microverse corriculum. It is a website that give information about the yearly microverse confrence for aspiring web developers
+
+## 🛠 Built With <a name="built-with"></a>
+
+<!-- ### Tech Stack <a name="tech-stack"></a> -->
+
+HTML, CSS, JavaScript
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- ** Beautiful UI **
+- ** Resposive Design **
+- ** Home Page **
+- ** About Us page **
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Screenshoots
+
+![App Screenshoot](/img/Capture1.PNG)
+![App Screenshoot](/img/Capture2.PNG)
+![App Screenshoot](/img/Capture3.PNG)
+![App Screenshoot](/img/Capture4.PNG)
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://mdgcapstone.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+Clone this repository to your machine and you are go to go:
+
+https://github.com/audukehinde/mdgcapstone.git
 
 ### Prerequisites
-* Fast Internet Connection
-* Laptop or Desktop
-* Choose any operating system of your choice
-* Chrome Browser or Any browser of choice
-* Text Editor (Visual Studio Code)
 
+Web Browser
+
+### Setup
+
+Download the repo.
 
 ### Install
-* Visual Studio Code
-* Chrome browser or any browser of choice
 
+Install this project with:
 
-### Authors
----
-👤 *Audu Kehinde*
+cd mdgcapstone
 
-* GitHub: [@audukehinde](https://github.com/audukehindea)
-* Linkedin: [LinkedIn](https://www.linkedin.com/in/kehinde-audu-a44926175/)
+npm install
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+<!-- AUTHORS -->
 
-Give a ⭐ if you like this project!
+## 👥 Authors <a name="authors"></a>
 
-## 🤝 Contributing
+👤 **Kehinde Audu**
+
+- GitHub: [@githubhandle](https://github.com/audukehinde)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kehinde-audu-a44926175/)
+- Twitter: [Twitter](@auducodes)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
-### Acknowledgments
----
-👤 *Cindy Shin*
----
-Thanks to Microverse and my Coding Partners
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- SUPPORT -->
 
-This project is [MIT](./MIT.md) licensed.
+## ⭐️ Show your support <a name="support"></a>
 
+<!-- > Write a message to encourage readers to support your project -->
 
+If you like this project kindly show you support
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
