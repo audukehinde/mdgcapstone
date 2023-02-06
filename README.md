@@ -40,10 +40,10 @@ HTML, CSS, JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-- ** Beautiful UI **
-- ** Resposive Design **
-- ** Home Page **
-- ** About Us page **
+- Beautiful UI
+- Resposive Design
+- Home Page
+- About Us page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
